@@ -1,0 +1,14 @@
+class JORDANshoes:
+     def __init__(self):
+        self.items = {
+            '1': {'name': 'JORDAN1', 'price': 599.00, 'quantity': 3},
+            '2': {'name': 'JORDAN3', 'price': 350.00, 'quantity': 10},
+            '3': {'name': 'JORDAN4', 'price': 195.00, 'quantity': 15}
+        }
+
+     def display_menu(self):
+        print("Welcome to the JORDAN shoes!")
+        print("1. Show available items")
+        print("2. Purchase an item")
+        print("3. Exit")
+
