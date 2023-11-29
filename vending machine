@@ -1,5 +1,5 @@
 class JORDANshoes:
-     def __init__(self):
+     def__init__(self):
         self.items = {
             '1': {'name': 'JORDAN1', 'price': 599.00, 'quantity': 3},
             '2': {'name': 'JORDAN3', 'price': 350.00, 'quantity': 10},
@@ -12,3 +12,9 @@ class JORDANshoes:
         print("2. Purchase an item")
         print("3. Exit")
 
+     def availableitems_menu(self):
+        self.available = {
+            '1': {'JORDAN3'},
+            '2': {'JORDAN1'},
+            '3': {'JORDAN4'}
+        }
