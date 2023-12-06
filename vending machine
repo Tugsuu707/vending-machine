@@ -1,5 +1,5 @@
 class JORDANshoes:
-     def__init__(self):
+     def __init__(self):
         self.items = {
             '1': {'name': 'JORDAN1', 'price': 599.00, 'quantity': 3},
             '2': {'name': 'JORDAN3', 'price': 350.00, 'quantity': 10},
